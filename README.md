@@ -28,27 +28,33 @@ Além disso, certifique-se de que as seguintes extensões estejam habilitadas em
 - xml (ativado por padrão - não desligue)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 
-Os campos created_at, updated_at e deleted_at precisam existir na tabela do banco para garantir que voce nao tenha problemas na hora de testar essa aplicaçao. 
+Os seguintes campos: 
+
+created_at, 
+updated_at 
+deleted_at 
+
+precisam existir na tabela do banco para garantir que voce nao tenha problemas na hora de testar a aplicaçao. 
 
 
 ## Manipulaçao de Dados de Usuario com o Framework CodeIgniter
 
-• Cadastrar;
-• Alterar;
-• Deletar.
+• Cadastrar; <br>
+• Alterar; <br>
+• Deletar. <br>
 
 
-Construído com
-• HTML
-• Java Script
-• CSS
-• Bootstrap
-• PHP
+## Construído com
+• HTML<br>
+• Java Script<br>
+• CSS<br>
+• Bootstrap<br>
+• PHP<br>
 
-Autor
+## Autor<br>
 • Ramon Rodrigues - Dev. Junior em Formaçao
 
-Expressões de gratidão
-• Obrigado por notar este projeto, sinta-se a vontade para contribuir.
-• Todas as sugestoes sao bem vindas.
-• Obrigado publicamente.
+## Expressões de gratidão<br>
+• Obrigado por notar este projeto, sinta-se a vontade para contribuir.<br>
+• Todas as sugestoes sao bem vindas.<br>
+• Obrigado publicamente.<br>
