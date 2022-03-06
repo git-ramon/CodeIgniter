@@ -30,8 +30,8 @@ Além disso, certifique-se de que as seguintes extensões estejam habilitadas em
 
 Os seguintes campos: 
 
-created_at, 
-updated_at 
+created_at, <br>
+updated_at <br>
 deleted_at 
 
 precisam existir na tabela do banco para garantir que voce nao tenha problemas na hora de testar a aplicaçao. 
