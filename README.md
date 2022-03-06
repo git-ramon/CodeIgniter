@@ -9,7 +9,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/codeigniter4/CodeIgniter4/pulls)
 <br>
 
-CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro.
+CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro. <br>
 Mais informações podem ser encontradas no [site oficial](http://codeigniter.com).
 
 ## Requisitos do servidor
@@ -35,7 +35,7 @@ deleted_at
 precisam existir na tabela do banco para garantir que voce nao tenha problemas na hora de testar a aplicaçao. 
 
 
-## Manipulaçao de Dados de Usuario com o Framework CodeIgniter
+## Este projeto aborda as seguintes Manipulações de Dados com o Framework CodeIgniter: 
 
 • Cadastrar; <br>
 • Alterar; <br>
@@ -43,6 +43,7 @@ precisam existir na tabela do banco para garantir que voce nao tenha problemas n
 
 
 ## Construído com
+
 • HTML<br>
 • Java Script<br>
 • CSS<br>
