@@ -9,8 +9,6 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/codeigniter4/CodeIgniter4/pulls)
 <br>
 
-## Conheça o CodeIgniter
-
 CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro.
 Mais informações podem ser encontradas no [site oficial](http://codeigniter.com).
 
