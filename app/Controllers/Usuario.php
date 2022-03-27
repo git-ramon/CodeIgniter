@@ -14,8 +14,9 @@ class Usuario extends BaseController
     }
 
     public function index(){
+
         return view('usuarios', [
-            'usuarios' => $this->UsuarioModel->paginate(6), // Tras vizualizaçao dos dados por paginas, 5 em 5 registros.
+            'usuarios' => $this->UsuarioModel->paginate(5), // Tras vizualizaçao dos dados por paginas, 5 em 5 registros.
             'paginas' => $this->UsuarioModel->pager
         ]);
     }
