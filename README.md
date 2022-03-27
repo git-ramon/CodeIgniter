@@ -26,6 +26,8 @@ Além disso, certifique-se de que as seguintes extensões estejam habilitadas em
 - xml (ativado por padrão - não desligue)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 
+- Para acessar local utilize spark com o seguinte comando: php spark serve
+
 Os seguintes campos: 
 
 created_at, <br>
