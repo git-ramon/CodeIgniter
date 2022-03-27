@@ -12,34 +12,36 @@
 </head>
 <body>
     <div class="container mt-5">
+        
         <?php echo anchor(base_url('usuario/create'), 'Novo Usuario', ['class' => 'btn btn-success mb-3']) ?>
+
         <table class="table">
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Sobre Nome</th>
-                <th>Login</th>
-                <th>Email</th>
-                <th>Açoes</th>
-            </tr>
-            <?php foreach ($usuarios as $user): ?>
                 <tr>
-                    <td><?php echo $user['id'] ?></td>
-                    <td><?php echo $user['nome'] ?></td>
-                    <td><?php echo $user['sobrenome'] ?></td>
-                    <td><?php echo $user['login'] ?></td>
-                    <td><?php echo $user['email'] ?></td>
-                    <td>
-                        <?php echo anchor('usuario/editar/' .$user['id'], 'Editar') ?>
-                        -
-                        <?php echo anchor('usuario/delete/' .$user['id'], 'Excluir', ['onclick' => 'return confirma()']) ?>
-                    </td>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Sobre Nome</th>
+                    <th>Login</th>
+                    <th>Email</th>
+                    <th>Açoes</th>
                 </tr>
+            <?php foreach ($usuarios as $user): ?>
+                    <tr>
+                        <td><?php echo $user['id'] ?></td>
+                        <td><?php echo $user['nome'] ?></td>
+                        <td><?php echo $user['sobrenome'] ?></td>
+                        <td><?php echo $user['login'] ?></td>
+                        <td><?php echo $user['email'] ?></td>
+                        <td>
+                            <?php echo anchor('usuario/editar/' .$user['id'], 'Editar') ?>
+                            -
+                            <?php echo anchor('usuario/delete/' .$user['id'], 'Excluir', ['onclick' => 'return confirma()']) ?>
+                        </td>
+                    </tr>
             <?php endforeach; ?>
         </table>
          <!-- Exibe o Link de paginaçao enviado pelo pager -->
         <?php echo $paginas->links(); ?>
-    </div>
+    </div>     
 
     <!-- Arquivo Java Script com funçoes externas -->
     <script type="text/javascript" src="../scrypt.js"></script>
