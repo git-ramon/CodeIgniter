@@ -19,3 +19,14 @@ ul.pagination li a {
 ul.pagination li a:hover:not(.active) {
     background-color: #ddd;
 }
+
+
+#search-container form{
+    width: 50%;
+    float: right;
+    display: -webkit-inline-box;
+}
+
+#search-container button{
+    margin-left: -112px;
+}
