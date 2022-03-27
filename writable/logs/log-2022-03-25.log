@@ -1,0 +1,36 @@
+CRITICAL - 2022-03-25 22:26:58 --> syntax error, unexpected token "if"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): view('usuarios', Array)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#8 {main}
+CRITICAL - 2022-03-25 23:29:29 --> Undefined variable $search
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 22)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-03-25 23:36:36 --> Call to undefined function App\Controllers\request()
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-03-25 23:55:04 --> Call to undefined function App\Controllers\request()
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
