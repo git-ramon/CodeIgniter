@@ -1,0 +1,14 @@
+ERROR - 2022-04-05 17:26:07 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-04-05 17:26:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): CodeIgniter\BaseModel->paginate(5)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}

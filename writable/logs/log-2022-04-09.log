@@ -1,0 +1,285 @@
+CRITICAL - 2022-04-09 09:57:58 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 43)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 09:58:54 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 49)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 09:58:56 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 49)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 10:07:03 --> Undefined array key "usuario/editar/3Editar"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 10:07:46 --> Array to string conversion
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\Usuari...', 62)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 10:17:36 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 43)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 11:03:18 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:03:19 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:03:28 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:03:33 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:04:03 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:04:07 --> Call to a member function paginate() on array
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#5 {main}
+CRITICAL - 2022-04-09 11:26:50 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 42)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 11:35:21 --> Undefined array key "usuario/delete"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:35:26 --> Undefined array key "usuario/delete"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:36:09 --> Undefined array key "useredit"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:36:16 --> Undefined array key "useredit"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:38:34 --> Undefined array key "http://localhost:8080/usuario/create"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:38:38 --> Undefined array key "http://localhost:8080/usuario/create"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 11:39:14 --> Undefined array key "base_url(usuario/create)"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:03:17 --> Undefined array key "http://localhost:8080/usuario/editar"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:03:21 --> Undefined array key "http://localhost:8080/usuario/editar"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+ERROR - 2022-04-09 12:03:49 --> Unknown column 'editar' in 'field list'
+CRITICAL - 2022-04-09 12:03:49 --> Unknown column 'editar' in 'field list'
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(58): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#12 {main}
+CRITICAL - 2022-04-09 12:04:02 --> Undefined array key "http://localhost:8080/usuario/editar"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:04:29 --> Undefined array key "http://localhost:8080/id"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:05:11 --> Undefined array key "usuario/editar/"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:06:00 --> Undefined array key "editar()"
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Usuari...', 67)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->getDados()
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#6 {main}
+CRITICAL - 2022-04-09 12:47:17 --> Undefined variable $user
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 52)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(20): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 16:14:31 --> Trying to access array offset on value of type null
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Usuari...', 50)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 16:30:21 --> Undefined variable $paginas
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 65)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
+CRITICAL - 2022-04-09 16:30:23 --> Undefined variable $paginas
+#0 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Views\usuarios.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Usuari...', 65)
+#1 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(210): include('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Common.php(1089): CodeIgniter\View\View->render('usuarios', Array, true)
+#4 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\app\Controllers\Usuario.php(19): view('usuarios', Array)
+#5 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(832): App\Controllers\Usuario->index()
+#6 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Usuario\Desktop\Ramon\Projetos\CodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Usuari...')
+#10 {main}
